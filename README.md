@@ -1,7 +1,7 @@
 DFJsonLib is a Delphi library that provides a set of functions for working with JSON data. With this library, you can easily parse, create, manipulate, and serialize JSON data in your Delphi application.
 Here are some examples of how you can use the DFJsonLib library in your Delphi application:
 Parsing JSON data:
-
+```pascal
 var
   JsonStr: string;
   JsonObject: TJSONObject;
@@ -16,9 +16,10 @@ begin
     JsonObject.Free;
   end;
 end;
-
+```
 
 Creating JSON data:
+```pascal
 var
   JsonObject: TJSONObject;
   JsonArray: TJSONArray;
@@ -51,8 +52,9 @@ begin
   end;
 end;
 
+```
 Manipulating JSON data:
-
+```pascal
 var
   JsonObject: TJSONObject;
 begin
@@ -74,5 +76,6 @@ begin
     JsonObject.Free;
   end;
 end;
+```
 
 These are just a few examples of how you can use the DFJsonLib library in your Delphi application. The library provides many more functions for working with JSON data, so be sure to check out the documentation for more information.
